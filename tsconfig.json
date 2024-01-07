@@ -1,0 +1,11 @@
+{
+  "include": ["src", "myPackage.d.ts"], // typescript가 src의 모든 파일을 확인한다.
+  "compilerOptions": {
+    "outDir": "build", // javascript가 생성될 디렉터리를 지정한다.
+    "target": "ES6", // compile 되는 javascript의 version
+    "lib": ["ES6"], // js 코드가 어디에서 동작할지 알려준다.
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
